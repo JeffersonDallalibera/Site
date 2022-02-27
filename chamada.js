@@ -8,5 +8,5 @@
     document.getElementById('imagens').appendChild(img);
 }
 function alert(){
-    alert('Você é incrivel');
+    alert("Você é incrivel");
 }
