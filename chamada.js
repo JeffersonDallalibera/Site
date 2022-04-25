@@ -6,5 +6,5 @@
     img.style.width = "450";
     img.style.height = "450px";
     document.getElementById('imagens').appendChild(img);
-    alert("Você é incrivel!!")
+    alert("É a minha namorada, Éss!!")
 }
