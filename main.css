@@ -1,10 +1,11 @@
 ﻿body{
-    background-color:rgb(65, 138, 206)
+    background-color:rgb(106, 139, 170)
 }
 h1{
-    text-align: center;    
+    text-align: center;  
+    color: black;;  
 }
 button{
     text-align: center;
-    background-color: rgb(29, 29, 237)
+    background-color: rgb(79, 79, 107)
 }
