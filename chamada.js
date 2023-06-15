@@ -10,13 +10,15 @@
   img.style.display = "block";
   img.style.aling = "center";
   document.getElementById("imagens").appendChild(img);
+  criaMensagem();
+
 }
 
 criaMensagem = () => {
   //criar mensagem para inserir abaixo da imagem
   var msg = document.createElement("P");
   msg.innerHTML =
-    "Luiza,<br> Você é um anjo. <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> ";
+    "<br>Luiza,<br> <br> ";
   msg.style.textAlign = "center";
   msg.style.fontSize = "20px";
   msg.style.fontFamily = "Arial";
