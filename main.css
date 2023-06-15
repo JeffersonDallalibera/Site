@@ -1,20 +1,21 @@
-﻿body{
-    background-color:rgb(106, 139, 170)
+﻿body {
+  background-color: rgb(106, 139, 170);
 }
-h1{
-    text-align: center;  
-    color: black;;  
+h1 {
+  text-align: center;
+  color: black;
 }
-button{
-    text-align: center;
-    background-color: rgb(79, 79, 107)
+button {
+  text-align: center;
+  background-color: rgb(79, 79, 107);
 }
 
-p{ 
-    
-    text-align: center;
-    font-size: 14px; line-height: 1.6em;
-    letter-spacing: 2px; word-spacing: 4px;
-    font-weight: bold;
-    font-family: "Trebuchet MS", Verdana, sans-serif;  
+p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.6em;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
 }
