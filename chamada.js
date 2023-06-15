@@ -10,8 +10,12 @@
     img.style.display = "block";
     img.style.aling = "center";
     document.getElementById('imagens').appendChild(img);
+<<<<<<< HEAD
+    alert("É a minha namorada, Ésss");
+=======
     criaMensagem();
 
+>>>>>>> d7035e1d6ae1105d3d920a3d79e3d6f77889171a
 }
 
 criaMensagem = () => {
