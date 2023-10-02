@@ -1,4 +1,4 @@
-﻿function chamafoto() {
+﻿/*function chamafoto() {
   console.log("chamou a função");
   var img = document.createElement("IMG");
   img.src = "./img/luiza.jpg";
@@ -60,3 +60,16 @@ criaBotao = () => {
   };
   document.getElementById("imagens").appendChild(botao);
 };
+*/
+document.addEventListener("DOMContentLoaded", function() {
+  const yesButton = document.getElementById("yesButton");
+
+  yesButton.addEventListener("click", function() {
+      const whatsappLink = "https://api.whatsapp.com/send?phone=+5549991198111&text=Oi,%20vamo%20quando?";
+      window.location.href = whatsappLink;
+  });
+});
+aviso = () =>{
+  //criar aviso de opçao incorreta
+  alert("Opção incorreta, favor tentar novamente")
+}

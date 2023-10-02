@@ -19,3 +19,8 @@ p {
   font-weight: bold;
   font-family: "Trebuchet MS", Verdana, sans-serif;
 }
+
+.convite {
+  text-align: center;
+  font-family: monospace;
+}
