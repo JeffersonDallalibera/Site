@@ -3,28 +3,48 @@
 
 <head>
   <!-- Meta tags Obrigatórias -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Inclua essas linhas no head do seu HTML -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.0/dist/sweetalert2.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.0/dist/sweetalert2.all.min.js"></script>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="main.css">
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link rel="stylesheet" href="main.css" />
   <title>Convite</title>
 </head>
 
 <body>
   <div class="container">
-    <h1>CONVITE </h1>
-    <br>
+    <br />
     <h2 class="convite"><b>Quer sair comigo?</b></h2>
-    
-    <button id="yesButton" type="button" class="btn btn-lg btn-block" onclick="chamafoto()">Sim</button>
-    <button id="botao" type="button" class="btn btn-lg btn-block" onclick="aviso()">Não</button>
-    <p id="imagens"> </p>
+    <hr>
 
-
+    <button id="yesButton" type="button" class="btn btn-lg btn-block" onclick="chamafoto()">
+      Sim
+    </button>
+    <button id="noButton" type="button" class="btn btn-lg btn-block" onclick="aviso()">
+      Não
+    </button>
+    <p id="imagens"></p>
   </div>
+  <script>
+    document.getElementById('noButton').addEventListener('click', function () {
+      // Exiba o alerta customizado
+      Swal.fire({
+        icon: 'error',
+        title: 'Opção incorreta!',
+        text: 'A opção selecionada é incorreta. Por favor, escolha outra.',
+        confirmButtonText: 'OK',
+        customClass: {
+          confirmButton: 'meu-botao-ok'
+        }
+      });
+    });
+  </script>
+
 
   <!-- JavaScript (Opcional) -->
   <script src="chamada.js"></script>
