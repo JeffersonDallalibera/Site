@@ -69,7 +69,3 @@ document.addEventListener("DOMContentLoaded", function() {
       window.location.href = whatsappLink;
   });
 });
-aviso = () =>{
-  //criar aviso de opçao incorreta
-  alert("Opção incorreta, favor tentar novamente")
-}
